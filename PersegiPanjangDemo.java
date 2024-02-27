@@ -35,8 +35,10 @@ import java.util.Scanner;
                 arrayOfPersegiPanjang[i].lebar = input13.nextInt();
             }
             for (int i = 0; i < 3; i++){
-                System.out.println("Persegi panjang ke-" + (i + 1)+ ", panjang: " 
-                + arrayOfPersegiPanjang[i].panjang + ", lebar: " + arrayOfPersegiPanjang[i].lebar);
+                System.out.println("Persegi panjang ke-" + (i + 1) + ":");
+            arrayOfPersegiPanjang[i].cetakInfo();
+            System.out.println(); // Tambahkan baris kosong antar persegi panjang
             }
         } 
+        
 }
